@@ -20384,21 +20384,23 @@ var ExportModal = (function (_Modal) {
         this.save = new _MenuItem2['default'](this.el, 'ge_sub_menu', 'Download file', function (event) {
             properties.main.download();
         });
-
+/*
         this.codeURL = new _MenuItem2['default'](this.el, 'ge_sub_menu', 'Code URL...', function (event) {
             (0, _ioShare.saveOnServer)(_this.main, function (event) {
                 prompt('Use this url to share your code', 'http://thebookofshaders.com/edit.php?log=' + event.name);
                 _this.removeModal();
             });
         });
-
+*/
+/*	    
         this.shaderURL = new _MenuItem2['default'](this.el, 'ge_sub_menu', 'Artwork URL...', function (event) {
             (0, _ioShare.saveOnServer)(_this.main, function (event) {
                 prompt('Use this url to share your artwork', 'http://player.thebookofshaders.com/?log=' + event.name);
                 _this.removeModal();
             });
         });
-
+*/
+/*	    
         var shareOF = new _MenuItem2['default'](this.el, 'ge_sub_menu', 'Artwork to [o]', function (event) {
             shareOF.el.innerHTML = 'Artwork to [o]: adding to collection';
             (0, _ioShare.saveOnServer)(_this.main, function (event) {
@@ -20415,6 +20417,7 @@ var ExportModal = (function (_Modal) {
                 });
             });
         });
+*/	
     }
 
     return ExportModal;
